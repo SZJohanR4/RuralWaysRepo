@@ -20,7 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     
     url(r'', include('usuario.urls')),# un usuario que llega, no importa si esta logeado o no  es un usuario
-    url(r'^administrador/', include('administrador.urls')),#cuando en el url aparesca administrador, tomara el urls.py de la app administrador
-    url(r'^agricultor/', include('agricultor.urls')),#cuando en el url aparesca agricultor, tomara el urls.py de la app agricultor
-    url(r'^cliente/', include('cliente.urls')),#cuando en el url aparesca cliente, tomara el urls.py de la app cliente
+    #url(r'^administrador/', include('administrador.urls')),#cuando en el url aparesca administrador, tomara el urls.py de la app administrador
+    #url(r'^agricultor/', include('agricultor.urls')),#cuando en el url aparesca agricultor, tomara el urls.py de la app agricultor
+    #url(r'^cliente/', include('cliente.urls')),#cuando en el url aparesca cliente, tomara el urls.py de la app cliente
 ]
